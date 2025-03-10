@@ -14,12 +14,14 @@ Technical Breakdown:
    - Data Structures: Dictionaries store symbol counts and values; lists manage slot columns.
    - Looping & Conditionals: Used for user input validation and game logic.
    - Function Decomposition: Code is modularized with functions like deposit(), get_bet(), play_slot_machine(), etc.
+   - Testing: Uses pytest for automated testing of betting, deposit, and winning calculations.
 
 Learning Outcomes
    - Handling user input validation.
    - Working with randomized outputs in Python.
    - Understanding basic game logic and balance tracking.
    - Implementing modular programming for better code readability.
+   - Writing unit tests using pytest.
    
 ## **Getting Started**
 
@@ -40,9 +42,15 @@ Ensure you have the following installed:
 2. Install dependencies:
    ```bash
    cd python-slot-machine
+   pip install pytest
    ```
 
 3. Run development:
    ```bash
    python main.py
+   ```
+
+4. Run test:
+   ```bash
+   pytest test_main.py
    ```
